@@ -1,0 +1,19 @@
+# CSC111 Winter 2025 Project 2: Python libraries required for Smart Trades
+# For all libraries, you need to be connected to the internet to download
+
+# Used to install all libraries below
+pip>=24.3.1
+
+# Code style checking
+python-ta~=2.9.1
+
+# Dataset
+yfinance==0.2.55 # NOTE: we couldn't locally upload the dataset as its API doesn't allow us to download it
+
+# Computation
+pandas>=2.2.3
+numpy>=2.2.1
+
+# Graphics and data visualization
+matplotlib>=3.10.0
+pygame>=2.6.0
